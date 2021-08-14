@@ -11,3 +11,10 @@
 
 let beginBttn=document.querySelector('button');//first button user is to click to initiate assesment
 let userScore=0;//increments upon each correct selection (for loop with logic that handles incrementation), but also negatively impacts timer with each incorrect choice
+let uxTimer=document.querySelector('#gameClock');
+beginBttn.onclick=()=>{
+    let countDown=9;
+    let hourGlass=setInterval(()=>{
+        //more to come
+    })
+}
