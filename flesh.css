@@ -1,6 +1,7 @@
-h1{
-    margin:center
-}
-button{
-    margin:auto;
+div{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+    margin-bottom:auto;
 }
