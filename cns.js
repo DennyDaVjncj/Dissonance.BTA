@@ -15,10 +15,16 @@ let uxTimer=document.querySelector('#gameClock');//see if 'var' declaration bein
 let renderedHourGlass=document.querySelector('#digitalRendering');
 
 beginBttn.onclick=()=>{
-    let countDown=9;
+    let countDown=3;
+
     let hourGlass=setInterval(()=>{
         renderedHourGlass.textContent=countDown--;        
-    },1000)
-    hourGlass;    
-    if(hourglass<1)clearInterval(hourGlass);
+    },1000);
+    hourGlass;
+    
+    //clearInterval() to be invoked
+
+    //figure out how to structure logic in order to update ui with new quetions/choices
+    //figure out DOM selectors
+    //prepare ui with 'invisible' elements
 }
