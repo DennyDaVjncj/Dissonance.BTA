@@ -1,2 +1,2 @@
-# Dissonance: the Brain training app
-mini code quiz built from the DOM
+# Dissonance: the Brain Training App
+mini web dev quiz built from the DOM
