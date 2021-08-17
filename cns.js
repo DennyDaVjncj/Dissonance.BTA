@@ -24,7 +24,8 @@ beginBttn.onclick=()=>{
     
     //clearInterval() to be invoked
 
-    //figure out how to structure logic in order to update ui with new quetions/choices
-    //figure out DOM selectors
-    //prepare ui with 'invisible' elements
+    //engineer logicNeuralImpulse routing
+        //engineer imulse routing so to update ui with new quetions/choices, upon user request
+        //figure out DOM selectors
+        //cloak strategic elemnts for dom targeting/ui architecture
 }
