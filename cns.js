@@ -13,13 +13,16 @@ let beginBttn=document.querySelector('button');//first button user is to click t
 let userScore=0;//increments upon each correct selection (for loop with logic that handles incrementation), but also negatively impacts timer with each incorrect choice
 let uxTimer=document.querySelector('#gameClock');//see if 'var' declaration being more effective/may not be a needed target
 let renderedHourGlass=document.querySelector('#digitalRendering');
-let cloakedDiv=document.querySelector('targetedDiv');
+let cloakedDiv=document.createElement('div');
 
 beginBttn.onclick=()=>{
     //place cloaking #id on initial block of text with hide attribute to be toggled on user click
-        //after each question is answered question, a new div with questions is to "arrive"
+        //after each question is answered, a new div with questions is to "arrive"
     
-    let countDown=3;
+    cloakedDiv.innerHTML='Might this be the start of cloaked divs in da Vjncj code?'
+    
+    
+        let countDown=3;
     let hourGlass=setInterval(()=>{
         renderedHourGlass.textContent=countDown--;
         if(countDown<0){
@@ -28,10 +31,6 @@ beginBttn.onclick=()=>{
         }
     },1000);
     hourGlass;    
-    // let breakGlass=clearInterval(hourGlass);
-    // if(hourGlass<1){
-    //     breakGlass();
-    // }
 
     //engineer logicNeuralImpulse routing
         //engineer imulse routing so to update ui with new quetions/choices, upon user request
