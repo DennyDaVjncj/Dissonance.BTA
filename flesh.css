@@ -14,3 +14,6 @@ Body{
     top:5px;
     left:85%;
 }
+#cloak{
+    display:none;
+}/*for concealed divs, to appear until appropriate*/
